@@ -1,0 +1,19 @@
+.singleProduct_modal{
+  max-width: 830px!important;
+}
+.singleProduct_modal .modal-header .modal-title .close{
+  position: absolute;
+  right: 17px;
+}
+
+.singleProduct_modal .product__slider img{
+  width: 100%;
+  padding: 1rem 0.2rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .singleProduct_modal .product__slider img{
+    padding: 0;
+  }
+}

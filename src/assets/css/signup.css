@@ -1,0 +1,97 @@
+.account-signup {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 60px;
+}
+
+.account-signup .sign-up-container {
+  display: block;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.account-signup .signup-heading h1 {
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.signup-heading p {
+  margin-bottom: 25px;
+}
+
+.sign-up-container .form-field .form-group {
+  margin-bottom: 5px !important;
+}
+
+.sign-up-container .form-field .form-group ::placeholder {
+  color: darkgray;
+}
+
+.sign-up-container .form-field label {
+  margin-bottom: .25rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* .account-signup.form-field.row .form-name {
+  padding-right: 0px !important;
+} */
+
+.account-signup input {
+  padding: 8px 14px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.signupfrm-btn-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupfrm-btn-section .btn-primary {
+  background-color: #343a40;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 1px;
+  font-size: 15px;
+  font-weight: 501;
+  padding: 12px 45px;
+  width: 100%;
+}
+
+.signupfrm-btn-section .btn-primary:hover {
+  background-color: #393636;
+}
+
+.have-account {
+  margin-top: 13px;
+}
+
+.have-account p{
+  font-weight: bold;
+}
+.have-account a{
+  font-weight: bold;
+}
+
+.have-account a:hover{
+  text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+  .account-signup {
+    padding: 0;
+  }
+
+  .account-signup .sign-up-container {
+    width: 100%;
+  }
+}

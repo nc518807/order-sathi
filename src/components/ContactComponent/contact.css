@@ -1,0 +1,70 @@
+#contact-details {
+  padding: 55px 60px;
+}
+
+.address-details {
+  padding-top: 10px;
+}
+
+.address-details td {
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+}
+
+.address-details td, .address-details th {
+  border: none !important;
+}
+
+
+
+/* MESSAGE */
+.message_form h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+.message_form label {
+  font-weight: 600;
+  font-size: 13px;
+  width: 100%;
+}
+
+.message_form input {
+  border-radius: 0 !important;
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.message_form .contact {
+  padding-top: 10px;
+}
+
+.message_form textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ced4da;
+  border-radius: 0 !important;
+}
+
+.message_form textarea:focus {
+  outline: none;
+}
+
+.send-message .btn-primary {
+  padding: .75rem;
+  width: 100%;
+  background-color: #333;
+  border-color: #333;
+  border-radius: 0;
+  /* padding: 7px 25px; */
+  color: #fff;
+}
+
+.send-message .btn-primary:hover {
+  color: #fff;
+  background-color: #EE3735;
+  opacity: 0.9;
+  border-color: #EE3735;
+}

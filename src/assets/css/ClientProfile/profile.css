@@ -1,0 +1,105 @@
+.user__detail-list {
+  padding: 0px 0px 20px 0px;
+  box-shadow: 12px 0 16px -16px rgb(0 0 0 / 8%);
+  width: 16%;
+}
+
+.user__detail-list .nav {
+  display: block !important;
+}
+
+.user__detail-list .nav .nav-item {
+  padding: 12px 0;
+}
+
+
+/* MY ACCOUNT */
+.user__detail-status {
+  flex-basis: 100%;
+  padding: 16px 0px 0 50px;
+}
+
+.user__detail-status h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.user__detail-info {
+  padding-bottom: 20px;
+}
+
+.user__detail-info .user-info-title {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 !important;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.user__detail-info .user-info-text {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* .user__detail-list .nav .nav-item .active{
+  color: red;
+} */
+
+.user__detail ul li a {
+  color: #333;
+  line-height: 1.8;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.user__detail ul li span {
+  padding-right: 10px;
+}
+
+.user__detail-list ul li i {
+  font-size: 16px;
+}
+
+.user-info-form .btn-primary {
+  padding: 5px 22px;
+  border-radius: 0%;
+  background: #333;
+  border: 1px solid #333;
+}
+
+.btn-primary:focus {
+  border-color: #333 !important;
+}
+
+.user-info-form .btn-primary:hover {
+  color: #fff;
+  background-color: #EE3735;
+  opacity: 0.9;
+  border-color: #EE3735;
+}
+
+.edit-form input {
+  border-radius: 0;
+  font-size: 14px;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .user__detail-status {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .user__detail-status h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .user__detail-status {
+    /* flex-basis: 100%; */
+    padding: 16px 0px 0 6px;
+  }
+}

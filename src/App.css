@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@import 'assets/css/footer.css';
+@import 'assets/css/header.css';
+@import 'assets/css/login.css';
+@import 'assets/css/product/new-product.css';
+@import 'assets/css/product/brand.css';
+@import 'assets/css/product/allproduct.css';
+@import 'assets/css/product/filtersidebar.css';
+@import 'assets/css/product/product-details.css';
+@import 'assets/css/product/single-product-detail.css';
+@import 'assets/css/home.css';
+@import 'assets/css/about.css';
+@import 'assets/css/categories.css';
+@import 'assets/css/signup.css';
+@import 'assets/css/cart&Checkout/cart.css';
+@import 'assets/css/cart&Checkout/checkout.css';
+@import 'assets/css/navbar.css';
+
+@import 'assets/css/ClientProfile/profile.css';
+@import 'assets/css/ClientProfile/orders.css';
+@import 'assets/css/ClientProfile/track.css';
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff !important;
+  font-size: 15px !important;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: 'Poppins', sans-serif !important;
+  color: #333 !important;
+  position: relative;
+}
+
+.container{
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+
+/* .btn-primary:hover{
+  background-color: none!important;
+  border-color: none!important;
+} */
+
+.btn-primary:focus{
+  background: #333!important;
+  box-shadow: none!important;
+}
+
+.form-control:focus {
+  outline: none!important;
+  border-color: lightgray!important;
+}
+
+
+@media screen and (max-width:767px) {
+  .container{
+    padding-right: 12px!important;
+    padding-left: 12px!important;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .container, .container-md, .container-sm {
+    max-width: 750px!important;
+  }
+}

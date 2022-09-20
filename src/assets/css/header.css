@@ -1,0 +1,160 @@
+.merged-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 12px 0 10px 1px rgb(0 0 0 / 3%);
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-bottom: 1px solid #dedede;
+}
+
+
+/* DESKTOP-ACTION */
+
+.desktop-action {
+    display: block;
+    line-height: 0;
+    margin-top: 13px;
+}
+
+.desktop-action form {
+    display: inline-block;
+}
+
+.desktop-action ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-action ul li {
+    display: inline;
+    padding-left: 2rem;
+    list-style-type: inline;
+}
+
+.desktop-action ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.desktop-action ul li a:hover {
+    color: #EE3735;
+}
+
+.action-links {
+    position: relative;
+}
+
+.action-links span i {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.action-links .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    color: #212529;
+    background-color: #fdf401;
+    border-radius: 50%;
+    padding: 0.25rem 0.5rem;
+}
+
+.action-links .cart-badge {
+    right: -8px !important;
+}
+
+/*Desktop-Search-bar*/
+.search {
+    float: right;
+}
+
+.search .input-group>.form-control {
+    display: inline-block;
+    height: 20px;
+    width: 350px;
+    line-height: 24px;
+    color: #696e79;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 8px 15px !important;
+    margin: 0;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+    background: #efefef;
+}
+
+.search .input-group-text, .search-bar .input-group-text {
+    background: #efefef;
+    border: none;
+    border-right: none;
+    border-radius: 0;
+    color: #999999 !important;
+    padding: 0 0.75rem;
+}
+
+.search .input-group input::placeholder, .search-bar .input-group input::placeholder {
+    font-size: 13px !important;
+}
+
+#basic-text1 i {
+    font-size: 15px !important;
+}
+
+.form-control:focus {
+    outline-color: none;
+}
+
+.main-header .mob {
+    list-style: none;
+    margin: 10px 7px;
+}
+
+.main-header .mob>li>a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* HAMBURGER__MOBILE__VIEW */
+.order_sathi_header .hamburger-menu {
+    padding: 3rem 1rem;
+}
+
+.order_sathi_header .mob-navbar .hamburger-menu .m-menu__toggle {
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+    .header-logo {
+        margin-left: 56px;
+    }
+
+
+    .order_sathi_header {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .main-header {
+        border: none;
+    }
+
+
+    /* MOB__NAVBAR */
+    .merged-header .mob-navbar {
+        display: block;
+    }
+}

@@ -1,0 +1,32 @@
+.os-navbar .container-fluid{
+  padding-left: 0%!important;
+  padding-right: 0%!important;
+}
+
+.navbar__header .nav .nav-item .nav-link{
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+
+
+/* SUBCATEGORY TITLE */
+.navbar__header .dropdown-menu-desktop {
+  width: 700px;
+  height: 328px;
+  padding: 10px 15px 10px;
+  color: #505050;
+  top: 100% !important;
+  border: none !important;
+  border-radius: 0 !important;
+  overflow-y: auto;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,.08);
+  position: absolute;
+  background-color: #fff;
+  /* left: 105px; */
+}
+
+

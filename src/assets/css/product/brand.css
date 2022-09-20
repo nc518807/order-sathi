@@ -1,0 +1,85 @@
+/* SHOP BY BRAND */
+
+.brand-slider {
+  margin: 40px auto;
+  padding-left: 0.6rem !important;
+  padding-right: 0.6rem !important;
+}
+
+.brand-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.shop-by-brand h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.owl-nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: -54px;
+  right: 0px;
+}
+
+.owl-nav>button {
+  padding: 0px 18px !important;
+  border: none !important;
+  font-size: 24px !important;
+  margin-right: 10px !important;
+  background-color: #EFEFEF !important;
+}
+
+/* .owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel button.owl-dot {
+  padding: 0 18px !important;
+  padding-right: 18px!important;
+} */
+
+.owl-stage.owl-item {
+  width: 0px !important;
+  margin-right: 3px !important;
+}
+
+.brand-carousel .card {
+  border: none;
+}
+
+.brand-box {
+  height: 184px;
+  background: #f4f4f4;
+  padding: 75px;
+  text-align: center;
+}
+
+.brand-box img {
+  width: 180px;
+}
+
+.brand-owl-carousel .owl-carousel .owl-nav .owl-prev>span{
+  padding: 12px!important;
+}
+.brand-owl-carousel .owl-carousel .owl-nav .owl-next>span{
+  padding: 12px!important;
+}
+
+/* SHOP BY BRAND */
+
+@media only screen and (max-width: 767px) {
+  .brand-box {
+    padding: 3.2rem 4.8rem;
+  }
+  .brand-owl-carousel .owl-carousel .owl-nav .owl-prev>span{
+    padding: 12px!important;
+  }
+  .brand-owl-carousel .owl-carousel .owl-nav .owl-next>span{
+    padding: 12px!important;
+  }
+}

@@ -1,0 +1,161 @@
+.cover-footer {
+  background-color: #dedede;
+}
+
+footer {
+  padding: 40px 10px !important;
+  border-top: 1px solid #dedede;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-logo h5 {
+  padding-left: 10px;
+}
+
+.footer-logo p {
+  font-size: 16px;
+  margin-top: 2rem;
+  font-family: 'Mazzard', sans-serif;
+}
+
+.quick-links {
+  padding-left: 80px;
+}
+
+.quick-links h5 {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2.5;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.mid_head {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.quick-links .mid_head ul {
+  list-style-type: none;
+  text-align: start;
+}
+
+.quick-links .mid_head ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-family: 'Mazzard', sans-serif;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icon h5 {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 2.5;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.footer-icon .payment {
+  width: 70%;
+}
+
+.footer-icon ul {
+  list-style-type: none;
+  /* padding-left: 24px; */
+}
+
+.powered-by ul li {
+  width: 90px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.15rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.powered-by ul li img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Footer Bottom */
+
+.footer_bottom {
+  min-height: 50px;
+  background-color: #333;
+  padding: 24px 50px;
+}
+
+.footer_bottom>div {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.copyright>span {
+  color: #ffffff;
+}
+
+.footer_bottom .footer_social-media {
+  position: relative;
+  top: 10px;
+}
+
+.footer_social-media ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_social-media ul li {
+  padding-right: 1rem;
+}
+
+.footer_social-media ul li a {
+  padding: 0 7px;
+  color: #efefef;
+}
+
+.footer_social-media ul li i {
+  font-size: 20px;
+}
+
+
+/* .footer_social-media ul li a .gmail:hover{
+    color: red;
+  }
+  .footer_social-media ul li a .facebook:hover{
+    color: #3498DB;
+  }
+  .footer_social-media ul li a .instagram:hover{
+    color: #3498DB;
+  }
+  .footer_social-media ul li a .twitter:hover{
+    color: #3498DB;
+  } */
+
+
+  @media only screen and (max-width: 767px){
+    .quick-links {
+      padding-left: 20px;
+    }
+  }

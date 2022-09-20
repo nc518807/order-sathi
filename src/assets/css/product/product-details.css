@@ -1,0 +1,147 @@
+.mid-level-body {
+  display: flex;
+  flex-direction: column;
+  /* width: calc(100% - 280px); */
+  padding: 15px;
+  padding-top: 0;
+}
+
+.list-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 15px;
+}
+
+.list-header h4 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: auto;
+}
+
+.all_product .card {
+  border: none;
+  width: 278px;
+  margin-bottom: 15px;
+}
+
+.all_product .card .card-body {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-body .card-head .cart-heart:hover {
+  color: red;
+}
+
+.card-body .card-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.card-body .card-text {
+  font-size: 18px;
+  color: #282c3f;
+  font-weight: 500;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  height: 265px;
+}
+
+.customised-badge {
+  position: absolute;
+  top: 6%;
+  left: 0;
+  z-index: 1;
+}
+
+.custom-badge {
+  background-color: #FFF689;
+  position: relative;
+  color: #333;
+  padding: 4.2px 6.25px 3.75px;
+}
+
+.custom-badge span {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.custom-badge .top-arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #FFF689;
+  border-bottom: 10px solid transparent;
+}
+
+.custom-badge .bottom-arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 11.5px solid transparent;
+  border-bottom: 20px solid #FFF689;
+}
+
+.badge-box {
+  width: 1px;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
+.image-box img {
+  transition: all .4s ease-in-out;
+  transform: scale(1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-box img:hover {
+  transform: scale(1.1);
+}
+
+/* .quick-view{
+  display: none;
+}
+.quick-view:hover {
+  position: absolute;
+  bottom: 97px;
+  background-color: #EE3735;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0;
+  transition: .5s ease;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  display: block;
+}
+
+.quick-view>p {
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 5px;
+} */
+
+.card-old-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .all_product .card {
+    width: 100%;
+  }
+}

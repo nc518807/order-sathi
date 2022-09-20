@@ -1,0 +1,30 @@
+.aboutus_headerText {
+  font-size: 3rem;
+  padding: 12rem 0;
+  margin: 0 1rem;
+  background-image: url("../images/background-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutus_page_base {
+  margin-top: 2em;
+}
+
+.privacy-page-content {
+  padding: 0 20px;
+}
+
+.aboutus_whoWeAre {
+  margin-bottom: 2rem;
+}
+
+.aboutus_highlightBase div h2, .aboutus_whoWeAre {
+  text-decoration: 3px underline #EE3735;
+  font-size: 1.5rem;
+}
+
+.privacy-page-content p {
+  font-size: 14px !important;
+}

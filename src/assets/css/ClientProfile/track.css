@@ -1,0 +1,43 @@
+.track-my-order-form {
+  padding-bottom: 30px;
+}
+
+.track-my-order-form .form-group {
+  margin-right: 20px;
+}
+
+.track-my-order-form .form-control {
+  width: 40%;
+  border-radius: 0;
+}
+
+.track-my-order-form .track-button {
+  padding: 0.375rem 4rem !important;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+  border-radius: 0px;
+}
+
+.track-my-order-form .btn-primary:hover {
+  background-color: #333;
+  border-color: #333 !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .track-my-order-form {
+    padding-bottom: 20px;
+    padding-right: 6px;
+  }
+  .track-my-order-form .form-control {
+    width: 100%;
+    border-radius: 0;
+  }
+  .track-my-order-form .form-group {
+    margin-right: 0px;
+  }
+  .track-my-order-form .track-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,111 @@
+.Orders-status {
+  margin-bottom: 1.5rem;
+  align-items: end;
+}
+
+.Orders-status, .Orders-status span, .order-details, .order-reciept-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Orders-status-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.sort-by-my-orders {
+  margin-right: 30px;
+}
+
+.search-bar {
+  margin-left: 10px;
+  min-height: 40px;
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+}
+
+.sort-by-my-orders .form-group {
+  display: -webkit-inline-box;
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+
+.Orders-status span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-by {
+  margin: -8px 9px;
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: .375rem 1rem !important;
+  padding-left: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0rem !important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  padding-left: 5px !important;
+}
+
+.search-bar {
+  /* margin-left: 30px; */
+  min-height: 40px;
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+}
+
+.input-group-prepared {
+  margin-right: -1px;
+}
+
+.input-group-prepared #basic-text1 {
+  padding: 11px;
+}
+
+.search-bar input {
+  background: #efefef;
+  height: 36px;
+  border: none;
+  border-radius: 0%;
+}
+
+.search-bar input:focus {
+  background-color: #efefef;
+}
+
+#basic-text1 i {
+  font-size: 14px !important;
+}
+
+/* USER DETAILS ORDERS */
+
+.user__detail-status h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .Orders-status {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .Orders-status-right {
+    width: 100%;
+  }
+}

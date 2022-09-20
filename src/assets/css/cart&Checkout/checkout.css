@@ -1,0 +1,223 @@
+.checkout__body {
+  padding-left: 40px !important;
+}
+
+.checkout_title {
+  margin-bottom: 2px;
+}
+
+
+.login-form-btn .btn-primary {
+  width: 100%;
+  background-color: #333;
+  border-color: #333 !important;
+  border-radius: 0%;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.login-form-btn .btn-primary:hover {
+  background-color: #393636;
+}
+
+.continue-to-checkout .btn-primary {
+  width: 100%;
+  background-color: #333;
+  border-color: #333 !important;
+  border-radius: 0%;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.continue-to-checkout .btn-primary:hover {
+  background-color: #393636;
+}
+
+
+/* DELIVERY & PICKUP */
+
+.delivery__pick .nav {
+  border: 1px solid #dedede;
+}
+
+.delivery__pick .nav>li {
+  width: 100%;
+  text-align: center;
+  height: 83px;
+}
+
+.delivery__pick .delivery>li .nav-link {
+  padding: 1.6rem 1rem !important;
+  cursor: pointer;
+}
+
+.delivery_img {
+  background-image: url(../../images/delivery.svg);
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 50px;
+  padding: 30px 0px 0px 0px;
+  color: #c6c6c6;
+}
+
+.delivery_img .delivery_span {
+  font-weight: 600;
+}
+
+/* .delivery__pick .pickup>li .nav-link {
+  padding: 10px !important;
+} */
+
+.delivery__pick .pickup > li > a{
+  padding-top: 1rem!important;
+  cursor: pointer;
+}
+.pickup_img img {
+  /* background-image: url(../../images/ready-stock.png); */
+  height: 38px;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 50px;
+  left: 50px;
+  /* padding: 30px 0px 0px 0px; */
+}
+
+.pickup_img .pickup_span {
+  color: #c6c6c6;
+  font-weight: 600;
+}
+
+.delivery__pick .delivery>li .active .delivery_img {
+  background-image: url(../../images/delivery1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delivery__pick .nav>li .active>div>span {
+  color: #2E89FF;
+}
+
+.delivery__pick .nav>li .active {
+  color: #2E89FF;
+  background-color: #E0EDFF;
+  border: 1px solid #2E89FF;
+  height: 84px;
+}
+
+
+
+
+/* DELIVERY & PICK UP FORM */
+
+.delt_pick .tab-content .tab-pane .form-group {
+  margin-bottom: 1rem;
+}
+
+.delivery__form,.pickup__form .form-group .form-control {
+  /* border: 1px solid #dedede; */
+  height: unset !important;
+  border-radius: 0 !important;
+  font-size: 13px !important;
+  font-weight: 300;
+}
+
+.delivery__form .form-group .form-control{
+  width: 100%;
+  padding: 7px;
+  font-size: 13px;
+  border: 1px solid #dedede;
+  border-radius: 0%;
+  font-weight: 300;
+  /* color: #dedede; */
+}
+
+.delivery__form .form-group .react-datepicker-wrapper 
+.react-datepicker__input-container > input{
+  width: 100%;
+  padding: 5px 7px;
+  color: #808080;
+  outline: none;
+}
+
+.delivery__form .form-group .react-datepicker__tab-loop
+.react-datepicker-popper .react-datepicker__triangle{
+  left: -124px!important;
+}
+.delivery__form .btn-primary{
+  border-radius: 0%;
+  padding: 6px 22px;
+  background-color: #343a40;
+  border: 1px solid #343a40;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.delivery__form .btn-primary:hover{
+  background-color: #393636;
+  border: 1px solid #393636;
+}
+
+.delivery__form .btn-primary:focus{
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.pickup__form .form-group .react-time-picker{
+  width: 100%;
+}
+
+.pickup__form .form-group .react-time-picker__wrapper{
+  border: 1px solid #dedede!important;
+}
+
+.pickup__form .form-group .react-time-picker__wrapper 
+.react-time-picker__inputGroup{
+  padding: 3px 10px!important;
+  font-size: 13px;
+}
+
+.pickup__form .react-time-picker__inputGroup__amPm{
+  font-size: 12px;
+  outline: none;
+  border: 0%;
+}
+
+.pickup__form .btn-primary{
+  border-radius: 0%;
+  padding: 6px 22px;
+  background-color: #343a40;
+  border: 1px solid #343a40;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.pickup__form .btn-primary:hover{
+  background-color: #393636;
+  border: 1px solid #393636;
+}
+
+.pickup__form .btn-primary:focus{
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+
+
+
+
+@media only screen and (max-width:767px){
+  .checkout__body{
+    padding-left: 12px !important;
+  }
+
+  .checkout__form .delivery__pick>div{
+    margin-bottom: .6rem;
+  }
+
+  .delivery__form .form-group .react-datepicker__tab-loop 
+  .react-datepicker-popper .react-datepicker__triangle {
+    left: -25px !important;
+  }
+}
